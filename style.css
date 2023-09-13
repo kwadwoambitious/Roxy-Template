@@ -67,7 +67,7 @@ nav ul li a{
   float: right;
   margin: 0;
 }
-main{
+main, .about-main{
   background: linear-gradient(135deg, #5957ab 10%, rgba(80, 4, 224, 0.8), rgba(230, 4, 184, 0.9) 80%), url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-size:cover;
@@ -75,7 +75,13 @@ main{
   height: 100vh;
   position: relative;
 }
-main .square{
+.about-main{
+  background: linear-gradient(90deg, rgba(59, 54, 146, 0.7), rgba(119, 39, 166, 0.7), rgba(127, 14, 125, 0.7), rgba(230, 4, 184, 0.7)), url('images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+main .square, .about-main .square{
   height: 78vh;
   display: flex;
   align-items: center;
@@ -174,6 +180,11 @@ h1{
   text-align: center;
   padding: 30px;
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-h1{
+  border: 15px solid white;
+  font-size: 5rem;
+  max-width: 250px;
 }
 .sec-1{
   padding-top: 80px;
