@@ -407,11 +407,11 @@ h1{
   margin-left: 10px
 }
 .sec-6{
-  
-  padding: 100px;
+  padding: 80px 10px;
 }
 .sec-6 h3{
-  /* color: white; */
+  text-align: center;
+  font-size: 5rem;
 }
 @media (max-width: 955px){
   .adjusted-card{
