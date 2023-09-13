@@ -503,12 +503,6 @@ h1{
     transition: all 0.7s;
   }
   main .circle1{
-    background-color: transparent;
-    border: 2px solid white;
-    position: absolute;
-    width: 50px;
-    border-radius: 50%;
-    height: 50px;
     bottom: 100px;
     left: 300px;
   }
