@@ -337,7 +337,7 @@ h1{
   width: 90%;
 }
 .sec-4 {
-  background-color:  rgba(59, 54, 146, 0.9);
+  background: linear-gradient(90deg, rgba(59, 54, 146, 0.9), rgba(119, 39, 166, 0.9), rgba(127, 14, 125, 0.9), rgba(230, 4, 184, 0.9)), url('images/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -406,11 +406,11 @@ h1{
   margin-left: 10px
 }
 .sec-6{
-  background: linear-gradient(90deg, rgba(59, 54, 146, 0.9), rgba(119, 39, 166, 0.9), rgba(127, 14, 125, 0.9), rgba(230, 4, 184, 0.9)), url('images/bg.jpg');
+  
   padding: 100px;
 }
 .sec-6 h3{
-  color: white;
+  /* color: white; */
 }
 @media (max-width: 700px){
   nav{
