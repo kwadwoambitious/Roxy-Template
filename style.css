@@ -79,7 +79,7 @@ main .obj-1{
   position: absolute;
   top: 150px;
   left: 100px;
-  width: 80px;
+  width: 50px;
   animation: triangle1 9s infinite linear;
   transition: all 0.7s;
 }
@@ -87,7 +87,7 @@ main .obj-2{
   position: absolute;
   bottom: 100px;
   right: 100px;
-  width: 80px;
+  width: 50px;
   animation: triangle2 5s infinite linear;
   transition: all 0.7s;
 }
@@ -106,9 +106,9 @@ main .circle2{
   background-color: transparent;
   border: 2px solid white;
   position: absolute;
-  width: 80px;
+  width: 50px;
   border-radius: 50%;
-  height: 80px;
+  height: 50px;
   top: 150px;
   right: 300px;
   animation: circle 7s infinite linear;
@@ -197,7 +197,7 @@ h1{
   text-align: center;
   margin: 0 auto;
   line-height: 1.5;
-}
+}Thanks for subscribing! 🙏
 .features{
   padding: 80px 50px;
   display: flex;
@@ -483,8 +483,38 @@ h1{
   .menu-bar{
     display: block;
   }
-  main .obj-1, .obj-2, .circle1, .circle2{
+  /* main .obj-1, .obj-2, .circle1, .circle2{
    display: none;
+  } */
+  main .obj-1{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 50px;
+    animation: triangle1 9s infinite linear;
+    transition: all 0.7s;
+  }
+  main .obj-2{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    width: 50px;
+    animation: triangle2 5s infinite linear;
+    transition: all 0.7s;
+  }
+  main .circle1{
+    background-color: transparent;
+    border: 2px solid white;
+    position: absolute;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    bottom: 100px;
+    left: 300px;
+  }
+  main .circle2{
+    top: 150px;
+    right: 300px;
   }
   header{
     display: flex;
