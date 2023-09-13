@@ -367,15 +367,12 @@ h1{
   scroll-snap-align: start;
   border: 2px solid white;
   max-width: 500px;
-  border-radius: 30px;
+  border-radius: 10px;
   width: 100%;
   padding: 10px;
 }
 .sec-4 svg{
   font-size: 60px;
-}
-.sec-4 span{
-  font-weight: 900;
 }
 .sec-4 h4{
   font-size: 3rem;
@@ -405,7 +402,7 @@ h1{
   margin-left: 10px
 }
 .user-name p{
-  font-weight: 900;
+  font-weight: 700;
 }
 .sec-6{
   padding: 80px 10px;
