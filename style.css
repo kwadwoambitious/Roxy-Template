@@ -32,7 +32,7 @@ nav ul li{
 }
 nav ul li a{
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin: 0 7px;
   color: white;
   font-weight: bold;
@@ -193,7 +193,7 @@ h1{
 .sec-1 > p {
   font-size: 1.7rem;
   max-width: 480px;
-  width: 80%;
+  width: 90%;
   text-align: center;
   margin: 0 auto;
   line-height: 1.5;
@@ -245,6 +245,7 @@ h1{
 }
 .sec-2 .info, .sec-3 .info{
   max-width: 350px;
+  width: 90%;
 }
 .sec-2 img, .sec-3 img{
   max-width: 320px;
@@ -489,6 +490,6 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 20px 0 20px;
+    padding: 10px 20px 0 20px;
   }
 }
