@@ -42,7 +42,7 @@ nav ul li a{
   font-size: 1.7rem;
   margin: 0 7px;
   color: white;
-  font-weight: bold;
+  font-family: 'Bricolage Grotesque', sans-serif;
 }
 .menu-bar{
   display: none;
@@ -325,6 +325,7 @@ h1{
 .info .progress_fill2 span{
   color: white;
   font-weight: 900;
+  font-family: 'Bricolage Grotesque', sans-serif;
 }
 .info .progress2{
   margin-top: 10px;
