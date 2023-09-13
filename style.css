@@ -495,7 +495,6 @@ h1{
     transition: all 0.7s;
   }
   main .obj-2{
-    position: absolute;
     bottom: 100px;
     right: 100px;
   }
