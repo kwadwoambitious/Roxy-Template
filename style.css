@@ -498,9 +498,6 @@ h1{
     position: absolute;
     bottom: 100px;
     right: 100px;
-    width: 50px;
-    animation: triangle2 5s infinite linear;
-    transition: all 0.7s;
   }
   main .circle1{
     bottom: 100px;
