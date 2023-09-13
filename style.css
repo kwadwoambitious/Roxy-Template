@@ -490,9 +490,6 @@ h1{
     position: absolute;
     top: 150px;
     left: 100px;
-    width: 50px;
-    animation: triangle1 9s infinite linear;
-    transition: all 0.7s;
   }
   main .obj-2{
     bottom: 100px;
