@@ -212,6 +212,7 @@ h1{
   justify-content: center;
   flex-wrap: wrap;
   max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
   gap: 30px;
 }
@@ -412,6 +413,11 @@ h1{
 .sec-6 h3{
   /* color: white; */
 }
+@media (max-width: 955px){
+  .adjusted-card{
+    margin-top: 0;
+  }
+}
 @media (max-width: 700px){
   nav{
     display: none;
@@ -429,6 +435,15 @@ h1{
   main .circle2{
     width: 50px;
     height: 50px;
+  }
+}
+@media (max-width: 664px){
+  .features{
+    padding: 80px 70px;
+  }
+  .card{
+    width: 100%;
+    padding: 40px 10px;
   }
 }
 @media (max-width: 500px){
@@ -464,7 +479,7 @@ h1{
     justify-content: space-between;
     padding: 10px 20px 0 20px;
   }
-  .adjusted-card{
-    margin-top: 0;
+  .features{
+    padding: 80px 20px;
   }
 }
