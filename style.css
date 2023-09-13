@@ -417,6 +417,22 @@ h1{
   .adjusted-card{
     margin-top: 0;
   }
+  main .obj-1{
+    top: 90px;
+    left: 100px;
+  }
+  main .obj-2{
+    bottom: 90px;
+    right: 100px;
+  }
+  main .circle1{
+    bottom: 90px;
+    left: 100px;
+  }
+  main .circle2{
+    top: 90px;
+    right: 100px;
+  }
 }
 @media (max-width: 700px){
   nav{
@@ -456,22 +472,6 @@ h1{
   }
   .menu-bar{
     display: block;
-  }
-  main .obj-1{
-    top: 90px;
-    left: 100px;
-  }
-  main .obj-2{
-    bottom: 90px;
-    right: 100px;
-  }
-  main .circle1{
-    bottom: 90px;
-    left: 100px;
-  }
-  main .circle2{
-    top: 90px;
-    right: 100px;
   }
   header{
     display: flex;
