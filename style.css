@@ -18,6 +18,7 @@ body p{
   font-weight: 300;
   letter-spacing: 1px;
   line-height: 1.3;
+  font-size: 1.5rem;
 }
 header{
   display: flex;
@@ -271,7 +272,7 @@ h1{
   font-size: 1.7rem;
   line-height: 1.5;
 }
-.sec-2 button{
+button{
   margin-top: 15px;
   padding: 10px 15px;
   border: none;
@@ -283,7 +284,7 @@ h1{
   font-weight: 900;
   transition: all 0.5s ease;
 }
-.sec-2 button:hover{
+button:hover{
   border: 1px solid #333399;
   background-color: #333399;
 }
@@ -422,6 +423,19 @@ h1{
 }
 .sec-6 div img{
   width: 100px;
+}
+.sec-8{
+  background: linear-gradient(90deg, rgba(59, 54, 146, 0.9), rgba(119, 39, 166, 0.9), rgba(127, 14, 125, 0.9), rgba(230, 4, 184, 0.9)), url('images/bg.jpg');
+  padding: 80px 10px;
+  color: white;
+  text-align: center;
+}
+.sec-8 h2{
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+.sec-8 p{
+  margin: 10px 0;
 }
 footer{
   padding: 30px;
