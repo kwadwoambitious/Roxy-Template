@@ -506,7 +506,7 @@ button:hover{
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px 50px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .progress > div{
   max-width: 550px;
@@ -532,30 +532,88 @@ button:hover{
   border-radius: 5px;
 }
 .progress-length1{
-  width: 90%;
+  animation: loading1 3s forwards cubic-bezier(0, 0, 0, 0);
 }
 .progress-length2{
-  width: 85%;
+  animation: loading2 3s forwards cubic-bezier(0, 0, 0, 0);
 }
 .progress-length3{
-  width: 73%;
+  animation: loading3 3s forwards cubic-bezier(0, 0, 0, 0);
 }
 .progress-length4{
-  width: 80%;
+  animation: loading4 3s forwards cubic-bezier(0, 0, 0, 0);
 }
 .progress-length5{
-  width: 60%;
+  animation: loading5 3s forwards cubic-bezier(0, 0, 0, 0);
 }
 .progress-length6{
-  width: 55%;
+  animation: loading6 3s forwards cubic-bezier(0, 0, 0, 0);
+}
+@keyframes loading1{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes loading2{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+@keyframes loading3{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 73%;
+  }
+}
+@keyframes loading4{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes loading5{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+@keyframes loading6{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 55%;
+  }
 }
 footer{
   padding: 30px;
   font-size: 1.5rem;
   text-align: center;
+  position: relative;
 }
 footer p{
   font-weight: bold;
+}
+footer div{
+  position: absolute;
+  right: 150px;
+  top: 30px;
+}
+footer div img{
+  width: 20px;
+  margin-right: 15px;;
 }
 @media (max-width: 955px){
   .adjusted-card{
