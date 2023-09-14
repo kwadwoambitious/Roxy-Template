@@ -594,9 +594,9 @@ footer p{
     justify-content: center;
     top: 0;
     right: 0%;
-    left: -400px;
+    left: -500px;
     background: #e604b9f8;
-    width: 50vw;
+    width: 70vw;
     height: 100vh;
     z-index: 1;
     transition: left 0.3s ease-in-out;
@@ -613,7 +613,7 @@ footer p{
   .menu-bar{
     display: block;
     border: 2px solid white;
-    padding: 0 10px;
+    padding: 2px 12px;
     border-radius: 5px;
   }
   main .obj-1{
