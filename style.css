@@ -593,15 +593,16 @@ footer p{
     align-items: center;
     justify-content: center;
     top: 0;
-    right: 0;
+    right: 0%;
     left: -400px;
     background: red;
     width: 50vw;
     height: 100vh;
     z-index: 1;
+    transition: left 0.3s ease-in-out;
   }
   nav ul.active{
-    left: 400px;
+    left: 0;
   }
   nav ul li{
     line-height: 3;
@@ -611,6 +612,8 @@ footer p{
   }
   .menu-bar{
     display: block;
+    border: 2px solid white;
+    padding: 0 10px;
   }
   main .obj-1{
     width: 50px;
