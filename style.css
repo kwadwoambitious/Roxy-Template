@@ -47,7 +47,6 @@ nav ul li a.active{
   background-color: #333399;
   padding: 10px 20px;
   border-radius: 10px;
-  transition: 0.3s ease-in-out;
 }
 .menu-bar{
   display: none;
