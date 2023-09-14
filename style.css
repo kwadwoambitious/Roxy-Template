@@ -44,7 +44,7 @@ nav ul li a{
   font-weight: 900;
 }
 .menu-bar{
-  /* display: none; */
+  display: none;
   cursor: pointer;
 }
 .bar{
@@ -584,8 +584,11 @@ footer p{
   }
 }
 @media (max-width: 700px){
-  nav{
+  nav ul{
     display: none;
+  }
+  .menu-bar{
+    display: block;
   }
   main .obj-1{
     width: 50px;
@@ -618,9 +621,6 @@ footer p{
     line-height: 0.9;
     color: white;
     padding: 20px;
-  }
-  .menu-bar{
-    display: block;
   }
   header{
     display: flex;
