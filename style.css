@@ -453,7 +453,7 @@ button:hover{
   width: 100px;
 }
 .sec-8{
-  background: linear-gradient(90deg, rgba(59, 54, 146, 0.9), rgba(119, 39, 166, 0.9), rgba(127, 14, 125, 0.9), rgba(230, 4, 184, 0.9)), url('images/bg.jpg');
+  background: linear-gradient(90deg, rgba(59, 54, 146, 0.9), rgba(119, 39, 166, 0.9), rgba(127, 14, 125, 0.9), rgba(230, 4, 184, 0.902)), url('images/bg.jpg');
   padding: 80px 10px;
   color: white;
   text-align: center;
@@ -595,7 +595,7 @@ footer p{
     top: 0;
     right: 0%;
     left: -400px;
-    background: red;
+    background: #e604b9f8;
     width: 50vw;
     height: 100vh;
     z-index: 1;
@@ -614,6 +614,7 @@ footer p{
     display: block;
     border: 2px solid white;
     padding: 0 10px;
+    border-radius: 5px;
   }
   main .obj-1{
     width: 50px;
