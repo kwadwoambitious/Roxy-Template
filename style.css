@@ -55,17 +55,7 @@ nav ul li a{
   transition: all 0.3s ease-in-out;
   background-color: white;
   border-radius: 5px;
-}
-.bar1{
-  width: 16px;
-}
-.bar2{
   width: 25px;
-}
-.bar3{
-  width: 16px;
-  /* float: right;
-  margin: 0; */
 }
 main, .about-main{
   background: linear-gradient(135deg, #5957ab 10%, rgba(80, 4, 224, 0.8), rgba(230, 4, 184, 0.9) 80%), url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
