@@ -30,30 +30,30 @@
       </div>
     </header>
       <div class="square">
-        <h1 class="about-h1">
+        <h1 class="about-h1 main-title">
            About
         </h1>
       </div>
     </div>
   </main>
   <section class="about-sec-1">
-    <h4>The easiest way <br> to build <span>websites online</span></h4>
-    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a
+    <h4 class="about-sec-1-text">The easiest way <br> to build <span>websites online</span></h4>
+    <p class="about-sec-1-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a
       pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
       <div class="about-cards-container">
-        <div>
+        <div class="about-cards">
             <img src="images/icons/animat-checkmark.gif" alt="animat-checkmark">
             <h3>Simple and Clean</h3>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             <a href="">View Details</a>
         </div>
-        <div>
+        <div class="about-cards">
             <img src="images/icons/animat-customize.gif" alt="animat-customize">
             <h3>Easy to Customize</h3>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis.</p>
             <a href="">View Details</a>
         </div>
-        <div>
+        <div class="about-cards">
             <img src="images/icons/animat-responsive.gif" alt="animat-responsive">
             <h3>Fully Responsive</h3>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper.</p>
@@ -111,9 +111,9 @@
         </div>
   </section>
   <section class="sec-8">
-    <h4>Make a beautiful website, or million of them</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, veritatis qui eligendi delectus quia fuga!</p>
-    <button>FEATURES</button>
+    <h4 class="sec-8-title">Make a beautiful website, or million of them</h4>
+    <p class="sec-8-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, veritatis qui eligendi delectus quia fuga!</p>
+    <button class="sec-8-text">FEATURES</button>
   </section>
   <footer>
       <p class="item">&copy; 2023 Roxy. Developed by <a href="https://github.com/kwadwoambitious">Ebenezer Antwi</a></p>
@@ -126,5 +126,21 @@
       </div>
   </footer>
   <script src="index.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script>
+    ScrollReveal({
+      //reset: true,
+      distance: '70px',
+      duration: 2500,
+      // delay: 400
+    });
+
+
+    ScrollReveal().reveal('.main-title, .sec-8-title', { delay: 10, origin: 'top' });
+    ScrollReveal().reveal('.about-cards', { delay: 10, origin: 'bottom', interval: 400}); 
+    ScrollReveal().reveal('.about-sec-1-text, .sec-8-text', { delay: 10, origin: 'left', interval: 400 });
+    // ScrollReveal().reveal('.sec-3-text, .sec-3-image', { delay: 10, origin: 'right', interval: 400 });
+  </script>
 </body>
 </html>

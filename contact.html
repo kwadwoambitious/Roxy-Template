@@ -30,18 +30,18 @@
       </div>
     </header>
       <div class="square">
-        <h1 class="contact-h1">
+        <h1 class="contact-h1 main-title">
            Contact Us
         </h1>
       </div>
     </div>
   </main>
   <section class="contact-sec-1">
-    <h4>Get In Touch</h>
-    <p class="contact-p">Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+    <h4 class="contact-sec-1-text">Get In Touch</h>
+    <p class="contact-p contact-sec-1-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
     pharetra augue. Donec id elit non mi.</p>
     <div>
-      <form>
+      <form class="form">
         <input type="text" name="name" placeholder="Name" required>
         <div class="input-flex">
           <div>
@@ -56,7 +56,7 @@
         <input type="submit" name="send" value="Send Message">
       </form>
     </div>
-    <h4 class="title">Where to Find Us?</h4>
+    <h4 class="title location-title">Where to Find Us?</h4>
     <div class="location-flex">
       <div class="location-card">
         <img src="images/location-on.svg" alt="location img">
@@ -81,9 +81,9 @@
     </div>
   </section>
   <section class="sec-8">
-    <h4>Make a beautiful website, or million of them</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, veritatis qui eligendi delectus quia fuga!</p>
-    <button>FEATURES</button>
+    <h4 class="sec-8-title">Make a beautiful website, or million of them</h4>
+    <p class="sec-8-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, veritatis qui eligendi delectus quia fuga!</p>
+    <button class="sec-8-text">FEATURES</button>
   </section>
   <footer>
       <p class="item">&copy; 2023 Roxy. Developed by <a href="https://github.com/kwadwoambitious">Ebenezer Antwi</a></p>
@@ -96,5 +96,20 @@
       </div>
   </footer>
   <script src="index.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({
+      //reset: true,
+      distance: '40px',
+      duration: 1700,
+      // delay: 400
+    });
+
+
+    ScrollReveal().reveal('.main-title, .sec-8-title', { delay: 10, origin: 'top' });
+    ScrollReveal().reveal('.location-card, form', { delay: 10, origin: 'bottom', interval: 350}); 
+    ScrollReveal().reveal('.contact-sec-1-text, .location-title, .sec-8-text', { delay: 10, origin: 'left', interval: 400 });
+    // ScrollReveal().reveal('.sec-3-text, .sec-3-image', { delay: 10, origin: 'right', interval: 400 });
+  </script>
 </body>
 </html>
