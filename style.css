@@ -268,7 +268,7 @@ h1{
   margin-bottom: 20px;
 }
 .about-sec-1 h4 span{
-  font-weight: 600;
+  font-weight: 500;
 }
 .about-sec-1 p{
   max-width: 700px;
@@ -490,7 +490,7 @@ button:hover{
 .about-cards-container div h3{
   font-size: 2rem;
   margin-bottom: 30px;
-  font-weight: 100;
+  font-weight: 500;
 }
 .about-cards-container div a{
   display: inline-block;
@@ -597,16 +597,16 @@ button:hover{
 .blog-sec-1, .contact-sec-1{
   padding: 80px 10px;
 }
-.blog-sec-1 .blog-p, h2, .contact-sec-1 .contact-p, h2 {
+.blog-sec-1 .blog-p, h4, .contact-sec-1 .contact-p, h4 {
   text-align: center;
 }
-.blog-sec-1 h2, .contact-sec-1 h2{
+.blog-sec-1 h4, .contact-sec-1 h2{
   font-size: 3rem;
   font-weight: lighter;
   margin-bottom: 10px;
 }
-.blog-sec-1 h2 span{
-  font-weight: bold;
+.blog-sec-1 h4 span{
+  font-weight: 500;
 }
 .contact-p{
   max-width: 600px;
