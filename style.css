@@ -48,7 +48,7 @@ nav ul li a.active{
   color: #333399;
   background-color: white;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 30px;
 }
 .menu-bar{
   display: none;
