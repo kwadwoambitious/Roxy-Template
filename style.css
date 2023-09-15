@@ -600,9 +600,7 @@ button:hover{
 .blog-sec-1 .blog-p, h4, .contact-sec-1 .contact-p, h4 {
   text-align: center;
 }
-.blog-sec-1 h4, .contact-sec-1 h2{
-  font-size: 3rem;
-  font-weight: lighter;
+.blog-sec-1 h4, .contact-sec-1 h4{
   margin-bottom: 10px;
 }
 .blog-sec-1 h4 span{
@@ -729,6 +727,7 @@ button:hover{
 }
 .location-card h3{
   font-size: 2rem;
+  font-weight: 500;
 }
 form input[type="submit"]:hover{
   background-color: #333399;
