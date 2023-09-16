@@ -18,14 +18,18 @@ body{
   right: 30px;
   bottom: 50px;
   text-decoration: none;
-  font-size: 1.5rem;
   background-color: #333399;
   color: white;
-  padding: 15px 20px;
+  padding: 10px 15px;
   z-index: 1;
   box-shadow: 1px 1px 15px 1px #000000fa;
   visibility: hidden;
   transition: visiblity 0.2s ease-in-out;
+}
+.top-button img{
+  display: block;
+  width: 25px;
+  margin: 0 auto;
 }
 .top-button.active{
   visibility: visible;
