@@ -465,11 +465,9 @@ button:hover{
 }
 .sec-6{
   padding: 80px 10px;
-  background-color: rgba(230, 4, 184, 0.9);
 }
 .sec-6 h4{
   text-align: center;
-  color: white;
 }
 .sec-6 div{
   display: flex;
@@ -480,7 +478,7 @@ button:hover{
   margin-top: 50px;
 }
 .sec-6 div img{
-  width: 100px;
+  width: 130px;
 }
 .sec-8{
   background: linear-gradient(90deg, rgba(59, 54, 146, 0.9), rgba(119, 39, 166, 0.9), rgba(127, 14, 125, 0.9), rgba(230, 4, 184, 0.902)), url('images/bg.jpg');
