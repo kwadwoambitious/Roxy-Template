@@ -257,8 +257,8 @@ h1{
   -moz-box-shadow: -1px 1px 12px -6px black;
   transition: transform 0.3s ease-in-out;
 }
-.card:hover{
-  transform: translateY(-6px);
+.card:hover, .news-card:hover{
+  transform: translateY(-8px);
 }
 .card img{
   width: 40px;
@@ -645,6 +645,7 @@ button:hover{
   max-width: 350px;
   width: 100%;
   border-radius: 10px 10px 0 0;
+  transition: transform 0.3s ease-in-out;
 }
 .news-card > img{
   max-width: 350px;
