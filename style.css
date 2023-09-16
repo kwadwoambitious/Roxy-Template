@@ -24,11 +24,11 @@ body{
   padding: 15px 20px;
   z-index: 1;
   box-shadow: 1px 1px 15px 1px #000000fa;
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
+  visibility: hidden;
+  transition: visiblity 0.2s ease-in-out;
 }
 .top-button.active{
-  opacity: 1;
+  visibility: visible;
 }
 h4{
   font-weight: 100;
