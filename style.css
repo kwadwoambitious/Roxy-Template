@@ -467,7 +467,7 @@ button:hover{
   padding: 80px 10px;
 }
 .sec-6 h4{
-  text-align: center;
+  /* text-align: center; */
 }
 .sec-6 div{
   display: flex;
