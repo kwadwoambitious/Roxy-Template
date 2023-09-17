@@ -396,7 +396,6 @@ button:hover{
   background-position: center;
   text-align: center;
   width: 100%;
-  /* overflow: hidden; */
   padding: 80px 10px;
   color: white;
 }
