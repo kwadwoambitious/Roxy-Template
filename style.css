@@ -854,6 +854,9 @@ footer div a, img{
   }
 }
 @media (max-width: 664px){
+  body{
+    overflow-x: hidden;
+  }
   .features{
     padding: 80px 70px;
   }
