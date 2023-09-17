@@ -23,6 +23,7 @@ body{
   z-index: 1;
   box-shadow: 1px 1px 15px 1px #000000fa;
   visibility: hidden;
+  border-radius: 50%;
   transition: visiblity 0.2s ease-in-out;
 }
 .top-button img{
