@@ -23,7 +23,6 @@ body{
   text-decoration: none;
   background-color: #333399;
   color: white;
-  /* padding: 10px 15px; */
   z-index: 1;
   box-shadow: 1px 1px 7px 1px #000000fa;
   visibility: hidden;
