@@ -16,17 +16,17 @@ body{
   position: fixed;
   right: 20px;
   bottom: 20px;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   display: flex;
   text-decoration: none;
   background-color: #333399;
   color: white;
   z-index: 1;
-  box-shadow: 1px 1px 7px 1px #000000fa;
+  /* box-shadow: 1px 1px 7px 1px #000000fa; */
   visibility: hidden;
   border-radius: 50%;
-  transition: visiblity 0.2s ease-in-out;
+  transition: visiblity 1s ease-in-out;
 }
 .top-button img{
   display: block;
