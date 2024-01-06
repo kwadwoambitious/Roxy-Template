@@ -336,9 +336,7 @@ h1 {
   max-width: 350px;
   width: 90%;
 }
-.sec-2-image{
-  width: 90%;
-}
+
 .sec-2 img,
 .sec-3 img {
   max-width: 500px;
@@ -924,6 +922,9 @@ img {
     width: 100%;
     padding: 40px 10px;
   }
+  .sec-2-image{
+    width: 90%;
+  }
 }
 @media (max-width: 500px) {
   /* h1 {
@@ -957,4 +958,5 @@ img {
   /* .sec-2 img{
     margin: 0 auto;
   } */
+  
 }
