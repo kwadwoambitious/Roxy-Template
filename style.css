@@ -68,7 +68,7 @@ nav ul li a {
   color: white;
 }
 nav ul li a.active {
-  color: #333399;
+  color: black;
   background-color: white;
   padding: 5px 15px;
   border-radius: 30px;
@@ -478,6 +478,7 @@ button:hover {
 }
 .user-name {
   text-align: justify;
+  margin-left: 10px;
 }
 .sec-4 > p {
   margin-top: 20px;
@@ -765,7 +766,7 @@ h4 {
 .contact-sec-1 input:focus,
 .contact-sec-1 textarea:focus {
   outline: none;
-  border: 1px solid #ff00cc;
+  border: 1px solid teal;
 }
 .contact-sec-1 form .input-flex {
   display: flex;
@@ -782,7 +783,7 @@ h4 {
   border: none;
   margin: 0 auto;
   color: white;
-  background-color: #ff00cc;
+  background-color: teal;
   border-radius: 30px;
   cursor: pointer;
   transition: background 0.3s ease-in-out;
@@ -811,7 +812,7 @@ h4 {
   font-weight: 500;
 }
 form input[type="submit"]:hover {
-  background-color: #333399;
+  background-color: rgba(0, 128, 128, 0.627);
 }
 footer {
   padding: 30px;
@@ -820,17 +821,17 @@ footer {
   background-color: rgba(0, 0, 0, 0.81);
   color: white;
 }
-footer p {
+/* footer p {
   margin-bottom: 20px;
-}
+} */
 footer p a {
   text-decoration: none;
 }
-footer div a,
+/* footer div a,
 img {
   width: 18px;
   margin-right: 15px;
-}
+} */
 @media (max-width: 955px) {
   .adjusted-card {
     margin-top: 0;
@@ -890,7 +891,7 @@ img {
     font-size: 2rem;
   }
   nav ul li a.active {
-    color: #333399;
+    color: black;
     background-color: transparent;
   }
   .menu-bar {
